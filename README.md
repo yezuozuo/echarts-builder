@@ -1,3 +1,4 @@
 # zoco charts
-generate charts by php 
-based on Echarts
+generate charts by php based on Echarts
+
+# usage
