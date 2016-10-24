@@ -17,5 +17,14 @@
         "psr-4": {
            "EchartsBuilder\\": "src/"
         }
-    }
+    },
+    "repositories": [
+        {
+          "packagist": false
+        },
+        {
+          "type": "composer",
+          "url": "http://packagist.phpcomposer.com"
+        }
+    ]
 }
