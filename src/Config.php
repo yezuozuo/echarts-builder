@@ -3,6 +3,13 @@
  * @since  2016-03-21
  */
 
+namespace EchartsBuilder;
+
+/**
+ * Class Config
+ *
+ * @package EchartsBuilder
+ */
 class Config {
     /**
      * @var string

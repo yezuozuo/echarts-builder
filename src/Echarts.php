@@ -3,9 +3,14 @@
  * @since  2016-03-21
  */
 
-require_once __DIR__ . '/Config.php';
+namespace EchartsBuilder;
 
-class ZocoCharts implements \ArrayAccess {
+/**
+ * Class Echarts
+ *
+ * @package EchartsBuilder
+ */
+class Echarts implements \ArrayAccess {
     /**
      * @var array
      */

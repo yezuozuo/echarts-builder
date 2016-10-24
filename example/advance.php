@@ -4,9 +4,9 @@
  */
 
 header('Content-Type: text/html; charset=utf-8');
-require_once __DIR__ . '/lib/ZocoCharts.php';
+require __DIR__ . '/../vendor/autoload.php';
 
-$chart = new ZocoCharts();
+$chart = new \EchartsBuilder\Echarts();
 $chart->tooltip->trigger = 'axis';
 $chart->legend->data = array('蒸发量','降水量','最低气温','最高气温');
 $chart->toolbox = array(

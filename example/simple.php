@@ -4,9 +4,9 @@
  */
 
 header('Content-Type: text/html; charset=utf-8');
-require_once __DIR__.'/lib/ZocoCharts.php';
+require __DIR__ . '/../vendor/autoload.php';
 
-$chart = new ZocoCharts();
+$chart = new \EchartsBuilder\Echarts();
 $chart->tooltip->show = true;
 $chart->legend->data[] = '销量';
 $chart->xAxis[] = array(
